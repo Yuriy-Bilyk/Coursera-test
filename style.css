@@ -1,0 +1,165 @@
+
+*border-box{
+    box-sizing: border-box;
+        }
+    *body{
+        margin: 0%;
+        padding: 0%;
+    }
+    h1{
+        width: 100%;
+        text-align: center;
+        font-size: calc(1.3rem + .6vw)
+    }
+    .All{
+        display: flex; 
+        justify-content: center;
+        margin: 10px;
+        padding: 5px;
+        border: 1px crimson;
+        
+        
+    }
+  
+    #first{
+        width: 400px;
+        height: 200px;
+        background-color: grey;
+        border: 1px blue;
+        margin:  20px;
+        font-size: calc(0.8rem + .4vw)
+        
+    }
+    #second{
+      width: 400px;
+      height: 200px;
+      background-color: grey;
+      border: 1px blue;
+      margin:  20px;
+      font-size: calc(0.8rem + .4vw)
+    }
+    #third{
+      width: 400px;
+      height: 200px;
+      background-color: grey;
+      border: 1px blue;
+      margin:  20px;
+      font-size: calc(0.8rem + .4vw)
+    }
+      #chiken{
+        width: 70px;
+        height: 30px;
+        background-color: pink;
+        float: right;
+        text-align: center;
+    }
+  
+    #beef{
+        width: 70px;
+        height: 30px;
+        background-color: rgb(141, 24, 24);
+        float: right;
+        text-align: center;
+        
+    }
+    #sushi{
+        width: 70px;
+        height: 30px;
+        background-color: rgb(153, 155, 23);
+        float: right;
+        text-align: center;
+    }
+    p{
+        text-align: center;
+        width: auto;
+        height: auto;
+    }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media (min-width: 992px) {
+    #first {
+      width: 30%;
+      
+      
+    }
+    #second {
+      width: 30%;
+      
+    }
+    #third {
+      width: 30%;
+      
+    }
+    
+  }
+  
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    #first {
+      width: 50%;
+      
+    }
+    #second {
+      width: 50%;
+      
+    }
+    #third {
+      width: 95%;
+      position: absolute;
+      top: 350px;
+      
+      
+      
+      
+      
+    }
+    
+  
+    
+    
+  }
+  
+  
+  @media (max-width: 767px) {
+    #first {
+      width: 90%;
+      
+    }
+    #second {
+      width: 90%;
+      
+    }
+    #third {
+      width: 90%;
+  
+    
+    }
+    .All{
+      display: flex;
+      flex-direction: column;
+      justify-items: center;
+      
+    }
+    
+  }
+  
+  
+  
+  
+  
+  
